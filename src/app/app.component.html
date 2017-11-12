@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<ngb-progressbar type="success" [value]="green" [striped]=true [animated]=true></ngb-progressbar>
+<button class="btn" (click)=addGreen()>Green Increment</button>
+<ngb-progressbar type="info" [value]="getBluePercentage()"></ngb-progressbar>
+<button class="btn" (click)="addBlue()">Blue Increment</button>
